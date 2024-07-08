@@ -47,3 +47,11 @@
     display: flex;
     align-items: center;
 }
+.background-pic{
+    
+    background-image: url(images/levitan-museum-volga-embankment-plyos-snow-light-evening-lanterns.jpg);
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px -210px;
+}
