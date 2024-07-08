@@ -2,9 +2,48 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
-.btn{
-   opacity: .75;
-   
+.all-socail-logo {
+    display: flex;
+}
+
+.social-logo a {
+    padding: 10px;
+    background-color: #FFD563;
+    color: black;
+    margin-left: 5px;
+    border-radius: 3px;
+}
+.col-2.quick-link ul li {
+    list-style: none;
+}
+
+.col-2.quick-link ul li a {
+    text-decoration: none;
+    
+}
+.contact-info {
+    display: flex;
+}
+.quick-link ul li a {
+    text-decoration: none;
+    color: white;
+}
+.contact-icon a {
+    color: #FFD563;
+    margin-right: 10px;
+}
+.contact-address a {
+    color: white;
+}
+.link-menu{
+    color: black;
+    font-weight: 600;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
 }
