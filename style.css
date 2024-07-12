@@ -12,10 +12,12 @@
 .social-logo a {
     padding: 10px;
     background-color: #FFD563;
-    color: black;
-    margin-left: 5px;
+    color: blue;
+    margin-left: 8px;
     border-radius: 3px;
+
 }
+
 .col-2.quick-link ul li {
     list-style: none;
 }
@@ -54,4 +56,24 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 0px -210px;
+}
+.box-icon {
+    justify-content: center;
+    display: flex;
+    font-size: 40px;
+}
+.box-title {
+    justify-content: center;
+    display: flex;
+}
+.icon-parts:hover {
+    background-color: #FFD563 !important;
+    transition: all 0.5s ease !important;
+    color: black !important;
+    
+}
+
+.all-socail-logo .social-logo:hover{
+ transform: scale(1.5);
+ padding: 5px;
 }
