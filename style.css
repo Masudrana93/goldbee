@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: "Poppins", Sans-serif;
 }
 
 .all-socail-logo {
@@ -76,4 +76,73 @@
 .all-socail-logo .social-logo:hover{
  transform: scale(1.5);
  padding: 5px;
+}
+
+
+.W-Ch-Icon {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-right: 10px;
+}
+    
+
+.icon-design{
+    background-color: #FFD563 !important;
+    border-radius: 50%;
+    font-size: 30px;
+    width: 70px;
+    height: 70px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    
+}
+
+.relative-about {
+    position: relative;
+    background-color: #FFD563 !important;
+    
+    width:350px;
+    height: 450px;
+}
+.absolute-about img {
+    position: absolute;
+    width: 350px !important;
+    height: 450px !important;
+    top: -20px;
+    left: 20px;
+}
+
+.why-choose-background{
+    background-image: url(images/8040815.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: repeat;
+    position: relative;
+    
+    
+    
+}
+
+.w-ch-backg-color {
+    background-color: #F5F8FA;
+    opacity: 0.9;
+    
+}
+
+
+.relative {
+    position: relative;
+    background-color: #FFD563 !important;
+    
+    width:400px;
+    height: 500px;
+}
+.absolute img {
+    position: absolute;
+    width: 400px !important;
+    height: 500px !important;
+    top: -20px;
+    left: 20px;
 }
