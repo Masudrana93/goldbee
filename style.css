@@ -20,6 +20,7 @@
 
 .col-2.quick-link ul li {
     list-style: none;
+    padding: 3px;
 }
 
 .col-2.quick-link ul li a {
@@ -33,6 +34,11 @@
     text-decoration: none;
     color: white;
 }
+.col-2.quick-link ul li a:hover {
+    color: #FFD563;
+    transition: all 0.5s ease;
+}
+
 .contact-icon a {
     color: #FFD563;
     margin-right: 10px;
@@ -114,12 +120,40 @@
     left: 20px;
 }
 
+.about-us-Backg{
+    background-image: url(images/about-us-bg.png);
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: 35% auto;
+}
+.about-us-bg-color{
+    background-color: #F5F8FA;
+    opacity: 0.9;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+.our-service-backg{
+    background: url(images/professional-cleaning-service-person-cleaning-office.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover ;
+    background-attachment: fixed;
+}
+.our-Service-Color-bg{
+    opacity: 0.9;
+}
+.font-wt{
+    font-weight: 800;
+}
+
+
 .why-choose-background{
     background-image: url(images/8040815.png);
     background-position: center;
     background-size: contain;
     background-repeat: repeat;
-    position: relative;
+    
     
     
     
@@ -145,4 +179,19 @@
     height: 500px !important;
     top: -20px;
     left: 20px;
+}
+.nav-link:hover {
+    color: #FFD563 !important;
+}
+.dropdown-item:hover {
+    background-color: #FFD563;
+   
+    transition: all 0.5s ease;
+}
+.dropdown-item {
+    padding: 8px;
+}
+.how-it-work-title,
+.three-step-part{
+    text-align: center;
 }
