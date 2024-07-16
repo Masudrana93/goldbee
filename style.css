@@ -153,11 +153,9 @@
     background-position: center;
     background-size: contain;
     background-repeat: repeat;
-    
-    
-    
-    
+       
 }
+
 
 .w-ch-backg-color {
     background-color: #F5F8FA;
@@ -194,4 +192,13 @@
 .how-it-work-title,
 .three-step-part{
     text-align: center;
+}
+
+.hw-it-backg-color{
+    background-color: #F5F8FA;
+    opacity: 0.9;
+}
+
+.swiper-pagination-bullet {
+    background: white;
 }
