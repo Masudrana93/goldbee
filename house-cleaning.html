@@ -1,0 +1,393 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- lightbox's Css -->
+    <link rel="stylesheet" href="css/lightbox.min.css">
+    
+    <!-- Boostrap Icon Css  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- External Css  -->
+    <link rel="stylesheet" href="style.css">
+
+    
+    <title>Goldbee</title>
+<style>
+
+  /* *********Button Sake CSS Start******** */
+    button:hover {
+      animation: shake 2s;
+      animation-iteration-count: infinite;
+    }
+    
+    @keyframes shake {
+      0% { transform: translate(1px, 1px) rotate(0deg); }
+      10% { transform: translate(-1px, -2px) rotate(-1deg); }
+      20% { transform: translate(-3px, 0px) rotate(1deg); }
+      30% { transform: translate(3px, 2px) rotate(0deg); }
+      40% { transform: translate(1px, -1px) rotate(1deg); }
+      50% { transform: translate(-1px, 2px) rotate(-1deg); }
+      60% { transform: translate(-3px, 1px) rotate(0deg); }
+      70% { transform: translate(3px, 1px) rotate(-1deg); }
+      80% { transform: translate(-1px, -1px) rotate(1deg); }
+      90% { transform: translate(1px, 2px) rotate(0deg); }
+      100% { transform: translate(1px, -2px) rotate(-1deg); }
+    }
+
+    /* *********Button Sake CSS End******** */
+
+    html,
+    .slider {
+      position: relative;
+      height: 100%;
+    }
+
+    .slider {
+      background: black;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #000;
+      margin: 0;
+      padding: 0;
+    }
+
+    .swiper {
+      width: 100%;
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+
+    .swiper-slide {
+      background-position: center;
+      background-size: cover;
+      width: 300px;
+      height: 300px;
+      
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+    }
+
+</style>
+    
+  </head>
+  <body>
+
+    <!-- *************Header part Start********* -->
+
+    
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top bg-white shadow-sm border-bottom border-2 border-warning ">
+
+      <div class="container-fluid ">
+        <div class="container">
+          <div class="row">
+       
+
+                <div class="col-2">
+                  <a class="navbar-brand" href="#"><img style="width: 120px;" src="images/Screen-Shot-2023-10-30-at-11.20.10-AM-1-e1698958515133.png" alt="Main Logo"></a>
+                </div>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="col-10 d-flex justify-content-center">
+                  <div class="collapse navbar-collapse" style="margin-left:0px;" id="navbarSupportedContent">
+                      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                          <a class="nav-link link-menu text-dark mx-1" aria-current="page" href="index.html">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link link-menu text-dark mx-1" href="about-us.html">ABOUT US</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle link-menu text-dark mx-1" href="service.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              SERVICE
+                            </a>
+                              <ul class="dropdown-menu py-0" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item link-menu text-dark" href="house-cleaning.html">House Cleaning</a></li>
+                                <li class="dd-padding"><a class="dropdown-item link-menu text-dark" href="vacation-cleaning.html">Vacation Cleaning</a></li>
+                                
+                                <li class="dd-padding"><a class="dropdown-item link-menu text-dark " href="deep-cleaning.html">Deep Cleaning</a></li>
+                                <li class="dd-padding"><a class="dropdown-item link-menu text-dark " href="move-out-in-cleaning.html">Move Out/In Cleaning</a></li>
+                                <li class="dd-padding"><a class="dropdown-item link-menu text-dark text-wrap" href="interior-const-handyman.html">Interior Constructions And Handyman Repairs </a></li>
+                                <li class="dd-padding"><a class="dropdown-item link-menu text-dark text-wrap" href="post-const-cleaning.html">Post Construction Cleaning</a></li>
+                                <li class="dd-padding"><a class="dropdown-item link-menu text-dark text-wrap" href="commercial-cleaning.html">Commercial Cleaning </a></li>
+                                <li class="dd-padding"><a class="dropdown-item link-menu text-dark text-wrap" href="landscape-exterior-cleaning.html">Landscape And Exterior Upkeep Cleaning </a></li>
+                                <li class="dd-padding"><a class="dropdown-item link-menu text-dark " href="interior-design.html">Interior Design </a></li>
+                                
+                              </ul>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link link-menu text-dark mx-1" aria-current="page" href="portfolio.html">PORTFOLIO</a>
+                        </li>
+
+                        <li class="nav-item">
+                          <a class="nav-link link-menu text-dark mx-1" aria-current="page" href="testimonials.html">TESTIMONIALS</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link link-menu text-dark mx-1" aria-current="page" href="contact-us.html">CONTACT US</a>
+                        </li>
+
+                        <a href="#"><button type="button"  style="width: 190px; height: 50px; background-color: #FFD563;
+                        margin-left: 55px;" class="btn "><b>CALL US TODAY</b>
+                        </button></a>
+
+                      </ul>
+                    </div>
+            </div>
+          </div>
+        </div>
+    </nav>
+
+    
+    <!-- *************Header part End********* -->
+
+
+    <!-- ********Service Part-1 Start******* -->
+
+    <div class="container-fluid service-part-one-backg px-0">
+      <div class="service-part-one-backg-color">
+        <div class="container">
+          <div class="row ">
+            <div class="col text-white d-flex justify-content-center align-items-center">
+              <h5>SERVICE</h5>
+            </div>
+            
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- ********Service Part-1 End******* -->
+
+    <!-- **********Expert House Cleaning Start********* -->
+
+    <div class="container-fluid ">
+      <div class="container">
+        <div class="row my-5">
+          <div class="col-8">
+            <h2>Expert House Cleaning Services</h2>
+            <br>
+            <p>Experience the joy of coming home to a spotless sanctuary with our expert house cleaning services. At Gold Bee Cleaning, we take pride in transforming your house into a pristine haven. Our professional team meticulously cleans every room, leaving no corner untouched. From dusting and vacuuming to sanitizing surfaces, we ensure your home is not just clean, but also healthy and inviting. Let us handle the cleaning, so you can enjoy the comforts of your home without the hassle.</p>
+            <br>
+
+            <a href="#"><button type="button" style="width: 190px; height: 50px; background-color: #FFD563;" class="btn ">
+              <i class="bi bi-telephone"></i>
+              <b>CALL US TODAY</b>
+            </button> </a>
+
+          </div>
+          <div class="col-4  ">
+            <div class="expert-bg-color-relative">
+              <div class="expert-photo-absolute">
+                <img class="img-fluid" src="images/girl-is-walking-studio.jpg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- **********Expert House Cleaning End********* -->
+
+
+
+
+<!-- **********Footer Part Start*********** -->
+
+<div class="container-fluid pt-5 " style="background-color: #0D1D35;">
+  <div class="container mt-5">
+    <div class="row text-white">
+      <div class="col-4">
+        <a href="index.html"><img class="mb-3" style="width: 100px; border-radius: 5px;" src="images/Screen-Shot-2023-10-30-at-11.20.10-AM-1-e1698958515133 (1).png" alt="footer logo"></a>
+
+        <p>Gold Bee Cleaning is a locally owned cleaning company in Galveston, Texas that specializes in a full range of cleaning services.</p>
+       <div class="all-socail-logo mt-4">
+            <div class="social-logo">
+              <a href="#"><i class="bi bi-facebook"></i></a>
+            </div>
+            <div class="social-logo">
+              <a href="#"><i class="bi bi-twitter"></i></a>
+            </div>
+            <div class="social-logo">
+              <a href="#"><i class="bi bi-instagram"></i></a>
+            </div>
+            <div class="social-logo">
+              <a href="#"><i class="bi bi-linkedin"></i></a>
+            </div>
+      </div>
+
+      </div>
+      <div class="col-2 quick-link">
+        <h5>Quick Links</h5>
+        <ul class="ps-0 mt-4">
+          <li>
+           <a href="about-us.html">About Us</a>
+          </li>
+          <li>
+            <a href="service.html">Services</a>
+           </li>
+           <li>
+            <a href="portfolio.html">Portfolio</a>
+           </li>
+           <li>
+            <a href="testimonials.html">Testimonials</a>
+           </li>
+           <li>
+            <a href="contact-us.html">Contact Us</a>
+           </li>
+          
+        </ul>
+      </div>
+      <div class="col-3">
+        <h5>Contact Info</h5>
+        <div class="contact-info mt-4">
+          <div class="contact-icon">
+            <a href="#"><i class="bi bi-map"></i></a>
+          </div>
+          <div class="contact-address">
+            <p>Serving Galveston, Tx and Surrounding Areas.</p>
+          </div>
+        </div>
+
+        <div class="contact-info">
+          <div class="contact-icon">
+              <a href="#"><i class="bi bi-telephone"></i></a>
+          </div>
+          <div class="contact-address">
+            <a href="#" class="text-decoration-none"><p>(409) 457-9195</p></a>
+          </div>
+        </div>
+
+        <div class="contact-info">
+          <div class="contact-icon">
+              <a href="#"><i class="bi bi-envelope-open"></i></a>
+          </div>
+          <div class="contact-address">
+            <a href="#" class="text-decoration-none"> <p>GoldBeeCleaning409@gmail.com</p> </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-3">
+
+        <div class="row footer-gallery">
+          <h5 class="mb-4">Gallery</h5>
+
+          <div class="col-4 mb-md-4 mb-2">
+            <a class="example-image-link" href="images/service-03.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward.">
+
+                <img class="example-image img-fluid" src="images/service-03.jpg" alt=""/>
+            </a>
+          </div>
+
+          <div class="col-4 mb-md-4 mb-2">
+            <a class="example-image-link" href="images/service-04.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward.">
+
+                <img class="example-image img-fluid" src="images/service-04.jpg" alt=""/>
+            </a>
+          </div>
+
+          <div class="col-4 mb-md-4 mb-2">
+            <a class="example-image-link" href="images/service-06-1.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward.">
+
+                <img class="example-image img-fluid" src="images/service-06-1.jpg" alt=""/>
+            </a>
+          </div>
+
+          <div class="col-4 mb-md-4 mb-2">
+            <a class="example-image-link" href="images/full-shot-men-high-five-office_23-2149345549.png" data-lightbox="example-set" data-title="Click the right half of the image to move forward.">
+
+                <img class="example-image img-fluid" src="images/full-shot-men-high-five-office_23-2149345549.png" alt=""/>
+            </a>
+          </div>
+
+          <div class="col-4 mb-md-4 mb-2">
+            <a class="example-image-link" href="https://picsum.photos/id/8/800/600" data-lightbox="example-set" data-title="Click the right half of the image to move forward.">
+
+                <img class="example-image img-fluid" src="https://picsum.photos/id/8/800/600" alt=""/>
+            </a>
+          </div>
+
+          <div class="col-4 mb-md-4 mb-2">
+            <a class="example-image-link" href="https://picsum.photos/id/50/800/600" data-lightbox="example-set" data-title="Click the right half of the image to move forward.">
+
+                <img class="example-image img-fluid" src="https://picsum.photos/id/50/800/600" alt=""/>
+            </a>
+          </div>
+        
+          
+         
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container border-top border-secondary mt-5 py-2">
+    <div class="row text-white">
+      <div class="col-12 d-flex justify-content-center align-items-center ">
+        <hr>
+        <p class="mb-0">Copyright ©2023 Gold Bee Cleaning - All rights reserved.</p>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<!-- **********Footer Part End*********** -->
+
+
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> -->
+
+    
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script> 
+
+    
+    <script src="js/lightbox-plus-jquery.min.js"></script>
+
+    <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      effect: "coverflow",
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: "auto",
+      coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows: true,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+      },
+      autoplay: {
+      delay: 5000,
+    },
+    });
+  </script>
+   
+  </body>
+</html>

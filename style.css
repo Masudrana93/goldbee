@@ -153,6 +153,7 @@
     background-position: center;
     background-size: contain;
     background-repeat: repeat;
+
        
 }
 
@@ -201,4 +202,38 @@
 
 .swiper-pagination-bullet {
     background: white;
+}
+.service-part-one-backg{
+    background-image: url('images/woman-yellow-rubber-glove-cleaning-stove-kitchen-banner-photo.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100%;
+}
+.service-part-one-backg-color{
+    background-size: cover;
+    opacity: 0.9;
+    height: 400px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    
+}
+
+.expert-bg-color-relative{
+    position: relative;
+    background-color: #FFD563 !important;
+    width: 350px; 
+    height: 270px;
+    
+}
+
+.expert-photo-absolute img{
+    width: 350px;
+    height: 270px;
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    
+    
 }
