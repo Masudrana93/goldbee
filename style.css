@@ -213,7 +213,7 @@
 }
 .service-part-one-backg-color{
     background-size: cover;
-    opacity: 0.9;
+   
     height: 400px;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.8);
@@ -236,4 +236,38 @@
     left: -20px;
     
     
+}
+
+.vacation-cleaning-part{
+    background-image: url('images/woman-yellow-rubber-glove-cleaning-stove-kitchen-banner-photo.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 480px;
+    width: 100%;
+}
+.vacation-cleaning-part-backg-color{
+    background-size: cover;
+   
+    height: 480px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    
+}
+
+.VC-Backg {
+    background-color: rgba(255, 255, 255, 0.7);
+    
+}
+.VC-Backg p {
+    color:gray ;
+    font-weight: 600;
+}
+.VC-Backg h2 {
+ 
+    font-weight: 600;
+}
+
+.vc-image img {
+    height: 350px;
 }
