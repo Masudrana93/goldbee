@@ -141,7 +141,8 @@
     background-attachment: fixed;
 }
 .our-Service-Color-bg{
-    opacity: 0.9;
+    
+    background-color: rgba(0, 0, 0, 0.7);
 }
 .font-wt{
     font-weight: 800;
@@ -153,16 +154,16 @@
     background-position: center;
     background-size: contain;
     background-repeat: repeat;
-
-       
+   
 }
 
 
 .w-ch-backg-color {
-    background-color: #F5F8FA;
-    opacity: 0.9;
     
+    background-color: rgba(255, 255, 255, 0.9);
 }
+    
+
 
 
 .relative {
@@ -243,13 +244,13 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 480px;
+    height: 450px;
     width: 100%;
 }
 .vacation-cleaning-part-backg-color{
     background-size: cover;
    
-    height: 480px;
+    height: 450px;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.8);
     
@@ -270,4 +271,31 @@
 
 .vc-image img {
     height: 350px;
+}
+
+.deep-bg-color-relative{
+    position: relative;
+    background-color: #FFD563 !important;
+    width: 400px; 
+    height: 400px;
+    
+    
+}
+
+.deep-photo-absolute img{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: -20px;
+    left: -20px;
+  
+}
+
+.sp-hover i:hover {
+    color: #FFD563 !important;
+    transition-duration: 0.5s !important;
+}
+.sp-hover p:hover {
+    color: #FFD563 !important;
+    transition-duration: 0.5s !important;
 }
