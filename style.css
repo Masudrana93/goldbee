@@ -299,3 +299,60 @@
     color: #FFD563 !important;
     transition-duration: 0.5s !important;
 }
+
+.interior-construction-part{
+    background-image: url('images/professional-cleaners.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 450px;
+    width: 100%;
+}
+.interior-construction-part-backg-color{
+    background-size: cover;
+   
+    height: 450px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    
+}
+
+.ic-Backg {
+    background-color: rgba(255, 255, 255, 0.7);
+    
+}
+.ic-Backg p {
+    color:gray ;
+    font-weight: 600;
+}
+.ic-Backg h2 {
+ 
+    font-weight: 600;
+}
+
+.ic-image img {
+    height: 350px;
+}
+
+.post-const-bg-color-relative{
+    position: relative;
+    background-color: #FFD563 !important;
+    width: 400px; 
+    height: 400px;
+    
+    
+    
+}
+
+.post-const-photo-absolute img{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    
+}
+.cc-image img{
+    width: 500px;
+    height: auto;
+}
