@@ -356,3 +356,7 @@
     width: 500px;
     height: auto;
 }
+.sub {
+    background-color: #FFD563;
+    border: none;
+}
