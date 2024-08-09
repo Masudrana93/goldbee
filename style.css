@@ -356,6 +356,23 @@
     width: 500px;
     height: auto;
 }
+
+.contact-us-part-one-backg{
+    background-image: url('images/woman-cleaning-counter-banner-photo-home-kitchen-hand-rubber-glove-with-spray-bottle-dish-cloth.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100%;
+}
+.contact-us-part-one-backg-color{
+    background-size: cover;
+   
+    height: 400px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    
+}
 .sub {
     background-color: #FFD563;
     border: none;
