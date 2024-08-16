@@ -21,66 +21,8 @@
     <link rel="stylesheet" href="style.css">
 
     
-    <title>Goldbee</title>
-<style>
+    <title>Landiview Group</title>
 
-  /* *********Button Sake CSS Start******** */
-    button:hover {
-      animation: shake 2s;
-      animation-iteration-count: infinite;
-    }
-    
-    @keyframes shake {
-      0% { transform: translate(1px, 1px) rotate(0deg); }
-      10% { transform: translate(-1px, -2px) rotate(-1deg); }
-      20% { transform: translate(-3px, 0px) rotate(1deg); }
-      30% { transform: translate(3px, 2px) rotate(0deg); }
-      40% { transform: translate(1px, -1px) rotate(1deg); }
-      50% { transform: translate(-1px, 2px) rotate(-1deg); }
-      60% { transform: translate(-3px, 1px) rotate(0deg); }
-      70% { transform: translate(3px, 1px) rotate(-1deg); }
-      80% { transform: translate(-1px, -1px) rotate(1deg); }
-      90% { transform: translate(1px, 2px) rotate(0deg); }
-      100% { transform: translate(1px, -2px) rotate(-1deg); }
-    }
-
-    /* *********Button Sake CSS End******** */
-
-    html,
-    .slider {
-      position: relative;
-      height: 100%;
-    }
-
-    .slider {
-      background: black;
-      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-      font-size: 14px;
-      color: #000;
-      margin: 0;
-      padding: 0;
-    }
-
-    .swiper {
-      width: 100%;
-      padding-top: 50px;
-      padding-bottom: 50px;
-    }
-
-    .swiper-slide {
-      background-position: center;
-      background-size: cover;
-      width: 300px;
-      height: 300px;
-      
-    }
-
-    .swiper-slide img {
-      display: block;
-      width: 100%;
-    }
-
-</style>
     
   </head>
   <body>
@@ -95,15 +37,15 @@
           <div class="row">
        
 
-                <div class="col-2">
-                  <a class="navbar-brand" href="#"><img style="width: 120px;" src="images/Screen-Shot-2023-10-30-at-11.20.10-AM-1-e1698958515133.png" alt="Main Logo"></a>
+                <div class="col-md-2 col-12">
+                  <a class="navbar-brand" href="index.html"><img style="width: 120px;" src="images/main_logo.png" alt="Main Logo"></a>
                 </div>
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
 
-                <div class="col-10 d-flex justify-content-center">
+                <div class="col-md-10 col-12 d-flex justify-content-center">
                   <div class="collapse navbar-collapse" style="margin-left:0px;" id="navbarSupportedContent">
                       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
@@ -162,7 +104,7 @@
   
   <div class="container">
     <div class="row ">
-      <div class="col-6 p-5 border rounded" style="background-color: #FFFFFFAB;">
+      <div class="col-md-6 col-12 p-5 border rounded" style="background-color: #FFFFFFAB;">
 
         <p class="font-wt">WELCOME TO GOLDBEE CLEANING SERVICES</p>
         
@@ -725,7 +667,7 @@
             <a href="#"><i class="bi bi-map"></i></a>
           </div>
           <div class="contact-address">
-            <p>Serving Galveston, Tx and Surrounding Areas.</p>
+            <p>Plot - 11/B (Navana Bilkis), Road -36, Gulshan 2, Dhaka-1212 </p>
           </div>
         </div>
 
@@ -734,7 +676,7 @@
               <a href="#"><i class="bi bi-telephone"></i></a>
           </div>
           <div class="contact-address">
-            <a href="#" class="text-decoration-none"><p>(409) 457-9195</p></a>
+            <a href="#" class="text-decoration-none"><p> +8802226 602299, +880 18 9748 5737 </p></a>
           </div>
         </div>
 
@@ -743,7 +685,7 @@
               <a href="#"><i class="bi bi-envelope-open"></i></a>
           </div>
           <div class="contact-address">
-            <a href="#" class="text-decoration-none"> <p>GoldBeeCleaning409@gmail.com</p> </a>
+            <a href="#" class="text-decoration-none"> <p>xyz@gmail.com</p> </a>
           </div>
         </div>
       </div>
@@ -805,7 +747,7 @@
     <div class="row text-white">
       <div class="col-12 d-flex justify-content-center align-items-center ">
         <hr>
-        <p class="mb-0">Copyright ©2023 Gold Bee Cleaning - All rights reserved.</p>
+        <p class="mb-0">Copyright ©2023 Landiview Group - All rights reserved.</p>
       </div>
     </div>
   </div>
@@ -831,27 +773,8 @@
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
   <!-- Initialize Swiper -->
-  <script>
-    var swiper = new Swiper(".mySwiper", {
-      effect: "coverflow",
-      grabCursor: true,
-      centeredSlides: true,
-      slidesPerView: "auto",
-      coverflowEffect: {
-        rotate: 50,
-        stretch: 0,
-        depth: 100,
-        modifier: 1,
-        slideShadows: true,
-      },
-      pagination: {
-        el: ".swiper-pagination",
-      },
-      autoplay: {
-      delay: 5000,
-    },
-    });
-  </script>
+  
+  <script src="Slider.js"></script>
    
   </body>
 </html>
